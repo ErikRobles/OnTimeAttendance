@@ -4,3 +4,86 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+
+h1 {
+  text-align: center;
+  font-size: 225%;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+  margin: 5% 0;
+}
+
+h1.infospace {
+  text-align: center;
+  font-size: 225%;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+  margin: 15% 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 375%;
+  color: #e5e5e5;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+/*------ Form css -------*/
+
+.form-box {
+  max-width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  background: #ffffff;
+  border: 10px solid #f2f2f2;
+}
+
+input, textarea {
+  width: 100%;
+}
+
+.btn-dark {
+  background: #551A8B!important;
+}
+
+/*-----Start Parallax-----*/
+.parallax {
+  background: url("../img/buildings.png");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background: url("../img/computers.png");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-inner {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+   /*-----Stop Parallax-----*/
