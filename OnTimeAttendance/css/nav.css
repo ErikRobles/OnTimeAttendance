@@ -1,6 +1,3 @@
-.bg-dark {
-    background-color: #551A8B!important;
-}
 
 .navbar-brand {
   font-size: 24px;
@@ -8,4 +5,8 @@
 
 .navbar-brand .bigFont {
   font-size: 36px;
+}
+
+a.nav-link {
+  color: white;
 }

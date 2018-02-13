@@ -1,5 +1,5 @@
 .footer {
-    background-color: #551A8B!important;
+    background-color: #343a40;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -53,9 +53,7 @@ input, textarea {
   width: 100%;
 }
 
-.btn-dark {
-  background: #551A8B!important;
-}
+
 
 /*-----Start Parallax-----*/
 .parallax {

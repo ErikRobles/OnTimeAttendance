@@ -194,36 +194,36 @@ input[type="email"]:focus {
   box-shadow: inset 1.5px 1.5px 3px rgba(0, 0, 0, 0.5);
 }
 .btn-primary {
-  background-color: #551A8B;
+  background-color: #343a40;
   color: #ffffff;
   border: 1px solid transparent;
   box-shadow: 0 0 rgba(0, 0, 0, 0);
   border-radius: 2px;
   -webkit-transition: background-color 0.2s, box-shadow 0.2s, background-color 0.2s, border-color 0.2s, color 0.2s;
   transition: background-color 0.2s, box-shadow 0.2s, background-color 0.2s, border-color 0.2s, color 0.2s;
-  background-image: -webkit-linear-gradient(top, #551A8B, #551A8B);
-  background-image: linear-gradient(to bottom, #551A8B, #551A8B);
+  background-image: -webkit-linear-gradient(top, ##6c757d, ##6c757d);
+  background-image: linear-gradient(to bottom, ##6c757d, ##6c757d);
   border: 0;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.15) inset;
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #44146F;
+  background-color: #6c757d;
   color: #ffffff;
   border-color: transparent;
   box-shadow: 0 0 rgba(0, 0, 0, 0);
 }
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #44146F;
+  background-color: #6c757d;
   color: rgba(255, 255, 255, 0.7);
   border-color: transparent;
   box-shadow: inset 1.5px 1.5px 3px rgba(0, 0, 0, 0.5);
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background-image: -webkit-linear-gradient(top, #44146F, #44146F);
-  background-image: linear-gradient(to bottom, #44146F, #44146F);
+  background-image: -webkit-linear-gradient(top, #6c757d, #6c757d);
+  background-image: linear-gradient(to bottom, #6c757d, #6c757d);
 }
 .btn-primary:active,
 .btn-primary.active {
