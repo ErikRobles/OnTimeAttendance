@@ -10,51 +10,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>SB Admin - Start Bootstrap Template</title>
+  <link rel="icon" href="img/blkclock.ico">
+  <title>LOG-IN</title>
   <!-- Bootstrap core CSS-->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet">
   <!-- Custom styles for this template-->
-  <link href="css/sb-admin.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
 </head>
 
-<body class="bg-dark">
-  <div class="container">
-    <div class="card card-login mx-auto mt-5">
-      <div class="card-header">Login</div>
-      <div class="card-body">
-        <form>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="img/clock.svg" class="clock" style="margin-right: 5px; margin-top: ; width: 100px;"></img><span class="bigFont">O</span>n Time Attendance</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><i class="fa fa-home" style="margin-right: 5px;"></i>Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="dashboard.html"><i class="fa fa-tachometer" aria-hidden="true" style="margin-right: 5px;"></i>Dashboard <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-sign-in" aria-hidden="true" style="margin-right: 5px;"></i>Log-In</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="form.php"><i class="fa fa-user-plus" aria-hidden="true" style="margin-right: 5px;"></i>Registrar</a>
+            <a class="dropdown-item" href="login.html"><i class="fa fa-sign-in" aria-hidden="true" style="margin-right: 5px;"></i>Log-In</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"><i class="fa fa-server" aria-hidden="true" style="margin-right: 5px;"></i>Productos</a>
+          </div>
+        </li>
+        </ul>
+      </div>
+  </nav>
+  <div class="body-content">
+  <div class="module">
+    <h1>Login</h1>
+        <form class="form">
           <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <label for="exampleInputEmail1">Correo Electrónico</label>
+            <input  type="email" aria-describedby="emailHelp" placeholder="Enter email">
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
+            <label for="exampleInputPassword1">Contraseña</label>
             <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password">
           </div>
           <div class="form-group">
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="checkbox"> Remember Password</label>
+                <input class="form-check-input" type="checkbox"> Recuerda mi contraseña</label>
             </div>
           </div>
-          <a class="btn btn-primary btn-block" href="index-2.html">Login</a>
+          <a class="btn btn-primary btn-block" href="dashboard.html">Login</a>
         </form>
         <div class="text-center">
-          <a class="d-block small mt-3" href="register.html">Register an Account</a>
-          <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
+          <a class="d-block small mt-3 text-white" href="register.html">Registrar una Cuenta</a>
+          <a class="d-block small text-white" href="forgot-password.html">¿Olvidaste su contraseña?</a>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Bootstrap core JavaScript-->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">&copy; 2018 Cervantes - Robles All Rights Reserved.</span>
+      </div>
+      <br><br><br>
+
+    </footer>
+    <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- Core plugin JavaScript-->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 </body>
 
-
-<!-- Mirrored from blackrockdigital.github.io/startbootstrap-sb-admin/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Feb 2018 22:00:29 GMT -->
 </html>
