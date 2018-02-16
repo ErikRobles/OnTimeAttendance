@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="img/blkclock.ico">
-  <title>User Form</title>
+  <title>Formulario | Crea una Cuenta</title>
   <link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css" type="text/css">
