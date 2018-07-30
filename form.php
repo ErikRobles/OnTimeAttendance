@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   </div>
   <footer class="footer">
     <div class="container">
-      <span class="text-muted">&copy; 2018 Cervantes - Robles All Rights Reserved.</span>
+      <span class="text-muted">&copy; 2018 Erik Robles All Rights Reserved.</span>
     </div>
     <br><br><br>
 
